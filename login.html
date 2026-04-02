@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glovo</title>
+    <link rel="shortcut icon" href="images/glovo-favicon-round.png" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <nav class="pl-4 sm:pl-8 py-2 sticky top-0   bg-white   h-[80px] z-10">
+      <a href="index.html">
+        <img
+          src="images/download__1_-removebg-preview.png"
+          alt="Glovo"
+          class="w-[100px] sm:w-[150px] h-[60px] sm:h-[80px] object-contain"
+        />
+      </a>
+    </nav>
+
+    <section class="flex justify-center items-start py-8 sm:py-16 px-4 min-h-screen">
+      <div class="bg-white rounded-2xl  w-full max-w-[480px] p-6 sm:p-10 relative">
+
+        <a
+          href="index.html"
+          class="absolute top-4 right-4 w-9 h-9 flex items-center justify-center rounded-full border border-gray-300 text-gray-500 cursor-pointer transition-colors duration-200 hover:bg-gray-100"
+        >
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </a>
+
+        <h1 class="font-black text-[28px] sm:text-[36px] text-center text-[#1A1A1A] mb-2">
+          Welcome
+        </h1>
+        <p class="text-center text-gray-500 text-[14px] sm:text-[15px] mb-8">
+          Continue with one of the following options
+        </p>
+
+        <form action="" class="flex flex-col gap-5">
+
+          <div class="flex gap-3">
+            <div class="flex flex-col gap-1">
+              <label class="text-sm font-medium text-gray-600">Prefix</label>
+              <div class="flex items-center border border-gray-300 rounded-xl px-3 h-[52px] w-[120px] sm:w-[140px] gap-2 transition-colors duration-200 hover:border-[#00A082] cursor-pointer">
+                <span class="text-xs text-gray-500 font-bold">NG</span>
+                <span class="text-[#1A1A1A] font-medium text-sm sm:text-base">+234</span>
+                <i class="fa-solid fa-chevron-down text-xs text-gray-400 ml-auto"></i>
+              </div>
+            </div>
+            <div class="flex flex-col gap-1 flex-1">
+              <label class="text-sm font-medium text-gray-600">Phone number</label>
+              <input
+                type="number"
+                placeholder="Phone number"
+                class="border border-gray-300 rounded-xl h-[52px] px-4 text-[15px] outline-none transition-colors duration-200 focus:border-[#00A082] focus:ring-2 focus:ring-[#00A082]/20"
+              />
+            </div>
+          </div>
+
+          <p class="text-[12px] sm:text-[13px] text-gray-500 leading-relaxed">
+            This site is protected by reCAPTCHA and the Google
+            <a href="#" class="text-[#00A082] font-bold transition-opacity duration-200 hover:opacity-70">Privacy Policy</a> and
+            <a href="#" class="text-[#00A082] font-bold transition-opacity duration-200 hover:opacity-70">Terms of Service</a>
+            apply.
+          </p>
+
+          <div class="flex gap-3 sm:gap-4">
+            <button
+              type="button"
+              class="flex-1 bg-[#C8EDE7] text-[#00A082] font-bold text-[14px] sm:text-[15px] h-[52px] rounded-full cursor-pointer transition-all duration-200 hover:bg-[#b2e0d8] hover:scale-[1.02] active:scale-[0.98]"
+            >
+              WhatsApp
+            </button>
+            <button
+              type="submit"
+              class="flex-1 bg-[#00A082] text-white font-bold text-[14px] sm:text-[15px] h-[52px] rounded-full cursor-pointer transition-all duration-200 hover:bg-[#008f72] hover:scale-[1.02] active:scale-[0.98]"
+            >
+              SMS
+            </button>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="flex-1 h-px bg-gray-200"></div>
+            <span class="text-gray-400 text-sm">or with</span>
+            <div class="flex-1 h-px bg-gray-200"></div>
+          </div>
+
+          <button
+            type="button"
+            class="w-full flex items-center justify-center gap-3 border border-gray-300 rounded-full h-[52px] text-[14px] sm:text-[15px] font-bold  cursor-pointer transition-all duration-200 hover:bg-gray-50 hover:border-gray-400 hover:scale-[1.01] active:scale-[0.99] font-bold"
+          >
+            <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="w-5 h-5 "
+             />
+            Google
+          </button>
+
+          <button
+            type="button"
+            class="w-full flex items-center justify-center gap-3 border border-gray-300 rounded-full h-[52px] text-[14px] sm:text-[15px] font-bold  cursor-pointer transition-all duration-200 hover:bg-gray-50 hover:border-gray-400 hover:scale-[1.01] active:scale-[0.99]"
+          >
+            <img src="https://glovoapp.com/_next/static/media/facebook.e4480188.svg" alt="Facebook" class="w-5 h-5 font-bold" />
+            Facebook
+          </button>
+
+          <button
+            type="button"
+            class="w-full flex items-center justify-center gap-3 border border-gray-300 rounded-full h-[52px] text-[14px] sm:text-[15px] font-bold  cursor-pointer transition-all duration-200 hover:bg-gray-50 hover:border-gray-400 hover:scale-[1.01] active:scale-[0.99] font-bold"
+          >
+            <i class="fa-regular fa-envelope text-gray-500"></i>
+            Email
+          </button>
+
+          <p class="text-center text-[12px] sm:text-[13px] text-gray-500 leading-relaxed mt-2">
+            By creating an account, you automatically accept our
+            <a href="#" class="text-[#00A082] font-bold transition-opacity duration-200 hover:opacity-70">Terms of service</a>,
+            <a href="#" class="text-[#00A082] font-bold transition-opacity duration-200 hover:opacity-70">Privacy Policy</a> and
+            <a href="#" class="text-[#00A082] font-bold transition-opacity duration-200 hover:opacity-70">Cookies Policy</a>
+          </p>
+
+        </form>
+      </div>
+    </section>
+
+  </body>
+</html>
