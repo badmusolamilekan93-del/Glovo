@@ -54,23 +54,24 @@
           <p class="font-bold text-[18px] sm:text-[26px] mt-2">
             Groceries, shops, pharmacies, anything!
           </p>
-          <div
-            class="bg-white flex items-center px-4 sm:px-5 py-2 rounded-xl w-full sm:w-[85%] mt-6"
-          >
-            <i class="fa-solid fa-location-dot text-gray-500 text-lg mr-3"></i>
-            <input
-              type="text"
-              placeholder="What's your address?"
-              class="flex-1 outline-none text-gray-900 text-normal font-medium bg-transparent"
-            />
-            <a href="#">
-              <button
-                class="bg-[#C8EDE7] text-[#00A082] text-sm px-3 sm:px-4 py-2 rounded-full whitespace-nowrap font-bold transition-all duration-200 hover:bg-[#b2e0d8] active:scale-[0.97]"
-              >
-                Use current location
-              </button>
-            </a>
-          </div>
+         <div
+  class="bg-white flex items-center gap-2 sm:gap-3 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl w-full max-w-[1000px] mt-6"
+>
+  <i class="fa-solid fa-location-dot text-gray-500 text-base sm:text-lg shrink-0"></i>
+
+  <input
+    type="text"
+    placeholder="What's your address?"
+    class="flex-1 min-w-0 outline-none text-gray-900 text-sm sm:text-base font-medium bg-transparent placeholder:text-gray-400"
+  />
+
+  <button
+    class="bg-[#C8EDE7] text-[#00A082] text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full whitespace-nowrap font-bold transition-all duration-200 hover:bg-[#b2e0d8] active:scale-[0.97] shrink-0"
+  >
+    <span class="hidden sm:inline">Use current location</span>
+    <span class="sm:hidden">My location</span>
+  </button>
+</div>
         </div>
       </div>
     </section>
@@ -466,7 +467,7 @@
             >Glovo Business</a
           >
           <select
-            class=" text-white border border-white px-2 py-2 w-[250px]  cursor-pointer focus:outline-none mt-[300px]"
+            class="text-white border border-white px-2 py-2 w-[250px] cursor-pointer focus:outline-none mt-[300px]"
           >
             <option value="en" class="bg-black">English</option>
             <option value="es" class="bg-black">Español</option>
